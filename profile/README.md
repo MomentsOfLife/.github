@@ -24,13 +24,13 @@
 
 ## 项目简介
 
-- 中文项目名称：生命瞬间展示
+- **中文项目名称：生命瞬间**
 
-- 英文项目名称：Moments  Of Life
+- **英文项目名称：Moments  Of Life**
 
-- 中文 Slogan：记录生命中值得珍藏的瞬间
+- **中文 Slogan：记录生命中值得珍藏的瞬间**
 
-- 英文 Slogan：Capture Life's Moments Worth 
+- **英文 Slogan：Capture Life's Moments Worth** 
 
 
 ## 项目记录
