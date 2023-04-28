@@ -1,12 +1,57 @@
-## Hi there 👋
+# MomentsOfLife
 
-<!--
+## 写在前面
 
-**Here are some ideas to get you started:**
+随着拍摄设备的普及，我们随时随地都可以留下各种影像，随着时间的积累，会有越来越多的照片。极大方便的同时也带来了很多问题，例如：
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- 想找某一张很久前的照片没法找到
+
+- 看到一张照片以后想不到什么时候拍摄的
+
+- 想看一下某一年某一段时间的照片
+
+类似的事例还有很多；另一方面我们经常被各种信息和刺激所包围，很难静下心来欣赏生命中真正重要的事情。
+
+为了解决上面的问题，也为了有一个展示平台，让自己可以更便捷更具像的回忆生命中那些独特的瞬间。我开始筹划做这样一个项目 ，它可以：
+
+- 所有设备的照片归类保存
+
+- 可以通过各种方式来浏览、回忆、找到某张照片
+
+这个工程量是巨大的，只能利用业余时间一步一步来搞。刚好现在chatGPT 如火如荼，刚好做为一个基于chatGPT开发的尝试。
+
+**基于个人数据及隐私的考虑，最终确定采用：Python + SQlite + LocalServer 来完成测试，因此不会有线上Demo，所有库表设计、新工具的生成都会尝试使用chatGPT来生成代码**
+
+## 项目简介
+
+- 中文项目名称：生命瞬间展示
+
+- 英文项目名称：Moments  Of Life
+
+- 中文 Slogan：记录生命中值得珍藏的瞬间
+
+- 英文 Slogan：Capture Life's Moments Worth 
+
+
+## 项目记录
+
+- 2017年的时候，有了上面的想法，第一步就是整理数据，整理照片是上面所有规划的基础。当时写了一个简单的照片整理和查看工具，可以方便的查看照片的基本信息和完成初步的照片整理
+
+- 2019年陆续启动了历史照片的整理工作，由于工作的原因，断断续续整理，最终基本上把从2008年到2020年初的大部分照片都已经整理完成了
+
+- 2020年最终将照片整理的所有过程以及用到的思路和方法总结，年底开发完成了视频的初步整理的工具
+
+- 2023年结合之前断断续续的思考，开始落地之前的数据保存方案：把所有照片的信息用DB保存，然后开发简单的标注工具，完成所有照片的标注
+
+## 相关链接
+
+- [照片整理系列之整理及归档的总体方案 \| 子勰的博客](https://blog.bihe0832.com/photos.html)
+
+- [照片整理系列之单次整理流程 \| 子勰的博客](https://blog.bihe0832.com/photos-process.html)
+
+- [照片整理系列之基于命令行的照片整理及查看工具 \| 子勰的博客](https://blog.bihe0832.com/photomanage.html)
+
+- [照片整理系之视频归档整理方案 \| 子勰的博客](https://blog.bihe0832.com/video-process.html)
+
+
+
